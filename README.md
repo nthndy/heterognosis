@@ -1,0 +1,1 @@
+A continuation of the macrohet project, heterognosis aims to understand the molecular underpinnings of Mtb-infected macrophage heterogeneity by employing 4i—iterative indirect immunofluorescence imaging—in combination with live-cell timelapse tracking.

@@ -1,0 +1,72 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dex
+*.jar
+*.aar
+*.apk
+*.exe
+*.o
+*.obj
+*.so
+*.dylib
+*.pyc
+__pycache__/
+
+# Packages #
+############
+# it's better to have a requirements.txt!
+# *.[Pp]kg
+# *.[Ee]gg-info
+# dist
+# build
+
+# Logs and temp files #
+######################
+*.log
+*.tmp
+*.swp
+*.swo
+*.pid
+*.lock
+._*
+.DS_Store
+ehthumbs.db
+Thumbs.db
+
+# Image files (common formats) #
+#################################
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.webp
+*.heic
+
+# Large files (you can customize these thresholds) #
+###################################################
+*.psd        # Photoshop files (can be large)
+*.ai         # Illustrator files (can be large)
+*.mov        # Movies
+*.mp4        # Movies
+*.avi        # Movies
+*.mpeg       # Movies
+*.mpg        # Movies
+*.wmv        # Movies
+*.mkv        # Movies
+*.blend      # Blender files
+*.fbx        # 3D model files
+*.obj        # 3D model files
+*.mtl        # 3D material files
+
+# OS or Editor specific files #
+##############################
+.vscode/
+.idea/
+*.iml
+target/
+out/
