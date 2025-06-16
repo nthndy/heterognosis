@@ -1,0 +1,102 @@
+{
+  "multiscales": [
+    {
+      "version": "0.4",
+      "datasets": [
+        {
+          "path": "images",
+          "coordinateTransformations": [
+            {
+              "type": "scale",
+              "scale": [
+                1,
+                1,
+                1,
+                1.0,
+                0.18983367649421007,
+                0.18983367649421007
+              ]
+            }
+          ]
+        }
+      ],
+      "axes": [
+        {
+          "name": "round",
+          "type": "other"
+        },
+        {
+          "name": "time",
+          "type": "time"
+        },
+        {
+          "name": "channel",
+          "type": "channel"
+        },
+        {
+          "name": "z",
+          "type": "space",
+          "unit": "micrometer"
+        },
+        {
+          "name": "y",
+          "type": "space",
+          "unit": "micrometer"
+        },
+        {
+          "name": "x",
+          "type": "space",
+          "unit": "micrometer"
+        }
+      ]
+    }
+  ],
+  "acquisition_metadata": {
+    "infection_status": null,
+    "antibiotic_treatment": null,
+    "objective_magnification": "63",
+    "objective_na": "1.15",
+    "camera": "AndorZylaCam",
+    "binning": {
+      "x": "2",
+      "y": "2"
+    },
+    "image_type": "Signal",
+    "illumination_type": "Epifluorescence",
+    "acquisition_type": "NipkowConfocal",
+    "channels": [
+      {
+        "id": 1,
+        "name": "EGFP",
+        "exposure_time": "0.16",
+        "excitation_wavelength": "488",
+        "emission_wavelength": "522",
+        "channel_type": "Fluorescence"
+      },
+      {
+        "id": 2,
+        "name": "Alexa 647",
+        "exposure_time": "0.16",
+        "excitation_wavelength": "640",
+        "emission_wavelength": "706",
+        "channel_type": "Fluorescence"
+      },
+      {
+        "id": 3,
+        "name": "Alexa 568",
+        "exposure_time": "0.16",
+        "excitation_wavelength": "561",
+        "emission_wavelength": "599",
+        "channel_type": "Fluorescence"
+      },
+      {
+        "id": 4,
+        "name": "DAPI",
+        "exposure_time": "0.1",
+        "excitation_wavelength": "405",
+        "emission_wavelength": "456",
+        "channel_type": "Fluorescence"
+      }
+    ]
+  }
+}
