@@ -71,3 +71,4 @@ Thumbs.db
 *.iml
 target/
 out/
+.ipynb_checkpoints/
