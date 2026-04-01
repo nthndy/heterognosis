@@ -1,5 +1,7 @@
 # heterognosis
 
+![heterognosis pipeline](landing_gif.gif)
+
 A continuation of the [macrohet](https://github.com/nthndy/macrohet) project. **heterognosis** aims to understand the molecular underpinnings of Mtb-infected macrophage heterogeneity by employing 4i — iterative indirect immunofluorescence imaging — in combination with live-cell timelapse tracking. Single cells are tracked across a live-cell imaging window, then linked to multiplexed protein abundance measurements from the same cells in fixed tissue, enabling single-cell resolution of infection outcome alongside proteomic state.
 
 ---
