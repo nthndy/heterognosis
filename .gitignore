@@ -47,6 +47,7 @@ Thumbs.db
 *.npy
 *.webp
 *.heic
+*.zattrs
 
 # Large files (you can customize these thresholds) #
 ###################################################
